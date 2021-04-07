@@ -1,0 +1,25 @@
+nav {
+
+}
+
+body {
+    background-size: 100%;
+    /* background-image: url("/assets/images/cool-background.png"); */
+    
+ }
+
+ main {
+     min-height: 500px;
+
+ }
+
+
+ .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }

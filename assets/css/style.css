@@ -8,8 +8,8 @@ body {
     
  }
 
- #contact{
-     display: flex;
+ #card-title{
+    padding-left: 10px;
  }
 
  .footer {
@@ -41,4 +41,7 @@ i.fa {
 
 .basic-contact {
     padding-left: 20px;
+}
+.sidenav-phone {
+    padding-left: 35px;
 }

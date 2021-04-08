@@ -1,17 +1,22 @@
+/* .project {
+    display: flex;
+    justify-content: center;
+    max-height: 400px;
+} */
 .brand-logo {
     margin-left: 20px;
 }
 
 body {
-    background-size: 100%;
-    /* background-image: url("/assets/images/cool-background.png"); */
+    background-size: 20%;
+    background-image: url("/assets/images/dark-honeycomb.png");
     
  }
 
- main {
+ /* main {
      min-height: 500px;
 
- }
+ } */
 
 
  .footer {
@@ -23,3 +28,17 @@ body {
     color: white;
     text-align: center;
   }
+
+.app-img {
+    height: 300px;
+    
+}
+/* 
+.weather-text {
+    font-size: 10px;
+}
+
+.sched-text {
+    font-size: 10px;
+} */
+

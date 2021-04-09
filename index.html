@@ -2,166 +2,158 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <!-- Link to style sheet if needed -->
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <!--Let browser know website is optimized for mobile-->
-    <title>Web Deveopment Portfolio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Link to style sheet if needed -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <!--Let browser know website is optimized for mobile-->
+  <title>Web Deveopment Portfolio</title>
 </head>
 
 <body class="container grey darken-3">
-    <nav>
-        <div class="nav-wrapper  blue-grey darken-1">
-            <a href="#about" class="brand-logo left">Mark Raudenbush</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#mywork">My Work</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <ul class="sidenav blue-grey lighten-2 sidenav-close" id="mobile-demo">
+  <nav>
+    <div class="nav-wrapper  blue-grey darken-1">
+      <a href="#about" class="brand-logo left">Mark Raudenbush</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
         <li><a href="#about">About Me</a></li>
         <li><a href="#mywork">My Work</a></li>
-        <li><a href="#contact">Conact</a></li>
-    </ul>
-    <main>
-        <div id="about" class="card  blue-grey darken-1">
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav blue-grey lighten-2 sidenav-close" id="mobile-demo">
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#mywork">My Work</a></li>
+    <li><a href="#contact">Conact</a></li>
+  </ul>
+  <main>
+    <div id="about" class="card  blue-grey darken-1">
+      <div class="card-content white-text">
+        <span class="card-title">About Me</span>
+        <p>Hello, my name is Mark Raudenbush. I am a web developer based out of Westminster, CO. I have skills
+          in HTML, CSS, JavaScript, jQuery, Bootstrap and Materialize. I have been working in the information
+          technology space for
+          about 20 years and have recently decided to add web development to my skill set. When I'm not
+          programming
+          I'm probably hanging out with my girlfriend and her 11 year old son and 9 year old daughter.</p>
+      </div>
+    </div>
+
+    <div class="card blue-grey darken-1">
+      <div class="card-content">
+        <div id="mywork" class="card-title white-text">My Work</div>
+      </div>
+
+      <!-- card for precovid-concerts -->
+      <div class="row">
+        <div class="col s12 m8 l8 offset-l2 offset-m2">
+          <div class="card center-align">
+            <div class="card-image">
+              <img src="assets/images/post-covid-concerts.jpg">
+              <!-- <span class="card-title">Post-Covid Concerts</span> -->
+            </div>
+            <div class="card-content grey lighten-2">
+              <span class="card-title">Post-Covid Concerts</span>
+              <p>This website was created to allow users to search for music events by entering a city.
+                It then displays upcoming concerts for that city listing the venue, ticket price range,
+                some information about the band/performer and a link to purchase tickets.</p>
+            </div>
+            <div class="card-action">
+              <a class="blue-text" href="https://baystaub.github.io/concerts-in-covid/">Website</a>
+              <a class="blue-text" href="https://github.com/baystaub/concerts-in-covid">GitHub Repo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- card for weather-dashboard -->
+      <div class="row">
+        <div class="card col s12 m6 l4 offset-l1 offset-m3">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator app-img" src="assets/images/weather-dashboard.jpg">
+          </div>
+          <div class="card-content center-align">
+            <span class="card-title activator grey-text text-darken-4"><a
+                class="waves-effect waves-light btn-small blue-grey lighten-3"><i
+                  class="material-icons">expand_less</i></a></span>
+            <!-- <p><a href="https://markraud.github.io/weather-dashboard/">Go to the Weather Dashboard</a></p> -->
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Weather Dashboard<i
+                class="material-icons right">close</i></span>
+            <p>This is a simple weather dashboard application. You are able to enter a city to receive
+              current
+              and future weather information.</p>
+            <p><a href="https://markraud.github.io/weather-dashboard/">Website</a></p>
+            <p><a href="https://github.com/markraud/weather-dashboard">GitHub Repo</a></p>
+          </div>
+        </div>
+
+
+        <!-- card for work-day-scheduler -->
+
+        <div class="card col s12 m6 l4 offset-l2 offset-m3">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator app-img" src="assets/images/work-day-scheduler.jpg">
+          </div>
+          <div class="card-content center-align">
+            <span class="card-title activator grey-text text-darken-4"><a
+                class="waves-effect waves-light btn-small blue-grey lighten-3"><i
+                  class="material-icons">expand_less</i></a></span>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Work Day Scheduler<i
+                class="material-icons right">close</i></span>
+            <p>This is a work day scheduler that allows you to enter activities/tasks and it saves them to
+              local
+              storage.</p>
+            <p><a href="https://markraud.github.io/work-day-scheduler/">Website</a></p>
+            <p><a href="https://github.com/markraud/work-day-scheduler">GitHub Repo</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- This is the new contact information div  -->
+    <div id="contact" class="card blue-grey darken-1">
+      <div class="row">
+        <div class="col s12 m12 center-align">
+          <div class="card blue-grey darken-1">
             <div class="card-content white-text">
-                <span class="card-title">About Me</span>
-                <p>Hello, my name is Mark Raudenbush. I am a web developer based out of Westminster, CO. I have skills
-                    in HTML, CSS, JavaScript, jQuery, Bootstrap and Materialize. I have been working in the information
-                    technology space for
-                    about 20 years and have recently decided to add web development to my skill set. When I'm not
-                    programming
-                    I'm probably hanging out with my girlfriend and her 11 year old son and 9 year old daughter.</p>
+              <span class="card-title">Contact Info:</span>
+              <!-- <p></p> -->
             </div>
+            <div class="card-action">
+              <a href="tel:3037252585" class="waves-effect waves-light btn blue-grey darken-3"><i
+                  class="fa fa-phone fa-2x"></i>(303) 725-2585</a>
+              <a href="mailto:markraud@hotmail.com" class="waves-effect waves-light btn blue-grey darken-3"><i
+                  class="fa fa-envelope-square fa-2x"></i>markraud@hotmail.com</a>
+              <a href="assets/other/Resume-Mark-Raudenbush.pdf" download
+                class="waves-effect waves-light btn blue-grey darken-3"><i class="fa fa-file-pdf-o"><span id="resume"
+                    class="card-title white-text">Resume</span></i></a>
+              <a href="https://www.linkedin.com/in/markraudenbush/"
+                class="waves-effect waves-light btn blue-grey darken-3"><i class="fa fa-linkedin fa-2x"></i></a>
+              <a href="https://github.com/markraud" class="waves-effect waves-light btn blue-grey darken-3"><i
+                  class="fa fa-github fa-2x"></i></a>
+              <!-- <a href="#" class="waves-effect waves-light btn">This is a link</a> -->
+            </div>
+          </div>
         </div>
+      </div>
+    </div>
 
-        <div class="card blue-grey darken-1">
-            <div class="card-content">
-                <div id="mywork" class="card-title white-text">My Work</div>
-            </div>
-
-            <!-- card for precovid-concerts -->
-            <div class="row">
-                <div class="col s12 m8 l8 offset-l2 offset-m2">
-                    <div class="card center-align">
-                        <div class="card-image">
-                            <img src="assets/images/post-covid-concerts.jpg">
-                            <!-- <span class="card-title">Post-Covid Concerts</span> -->
-                        </div>
-                        <div class="card-content grey lighten-2">
-                            <span class="card-title">Post-Covid Concerts</span>
-                            <p>This website was created to allow users to search for music events by entering a city.
-                                It then displays upcoming concerts for that city listing the venue, ticket price range,
-                                some information about the band/performer and a link to purchase tickets.</p>
-                        </div>
-                        <div class="card-action">
-                            <a class="blue-text" href="https://baystaub.github.io/concerts-in-covid/">Website</a>
-                            <a class="blue-text" href="https://github.com/baystaub/concerts-in-covid">GitHub Repo</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- card for weather-dashboard -->
-            <div class="row">
-                <div class="card col s12 m6 l4 offset-l1 offset-m3">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator app-img" src="assets/images/weather-dashboard.jpg">
-                    </div>
-                    <div class="card-content center-align">
-                        <span class="card-title activator grey-text text-darken-4"><a
-                                class="waves-effect waves-light btn-small blue-grey lighten-3"><i
-                                    class="material-icons">expand_less</i></a></span>
-                        <!-- <p><a href="https://markraud.github.io/weather-dashboard/">Go to the Weather Dashboard</a></p> -->
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Weather Dashboard<i
-                                class="material-icons right">close</i></span>
-                        <p>This is a simple weather dashboard application. You are able to enter a city to receive
-                            current
-                            and future weather information.</p>
-                        <p><a href="https://markraud.github.io/weather-dashboard/">Website</a></p>
-                        <p><a href="https://github.com/markraud/weather-dashboard">GitHub Repo</a></p>
-                    </div>
-                </div>
-
-
-                <!-- card for work-day-scheduler -->
-
-                <div class="card col s12 m6 l4 offset-l2 offset-m3">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator app-img" src="assets/images/work-day-scheduler.jpg">
-                    </div>
-                    <div class="card-content center-align">
-                        <span class="card-title activator grey-text text-darken-4"><a
-                                class="waves-effect waves-light btn-small blue-grey lighten-3"><i
-                                    class="material-icons">expand_less</i></a></span>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Work Day Scheduler<i
-                                class="material-icons right">close</i></span>
-                        <p>This is a work day scheduler that allows you to enter activities/tasks and it saves them to
-                            local
-                            storage.</p>
-                        <p><a href="https://markraud.github.io/work-day-scheduler/">Website</a></p>
-                        <p><a href="https://github.com/markraud/work-day-scheduler">GitHub Repo</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- This is the new contact information div  -->
-        <div id="contact" class="card blue-grey darken-1">
-            <div class="row">
-                <div class="col s12 m12 center-align">
-                    <div class="card blue-grey darken-1">
-                        <div class="card-content white-text">
-                            <span class="card-title">Contact Info:</span>
-                            <!-- <p>I am a very simple card. I am good at containing small bits of information.
-                                I am convenient because I require little markup to use effectively.</p> -->
-                        </div>
-                        <div class="card-action">
-                            <a href="tel:3037252585" class="waves-effect waves-light btn blue-grey darken-3"><i
-                                    class="fa fa-phone fa-2x"></i>(303) 725-2585</a>
-                            <a href="mailto:markraud@hotmail.com"
-                                class="waves-effect waves-light btn blue-grey darken-3"><i
-                                    class="fa fa-envelope-square fa-2x"></i>markraud@hotmail.com</a>
-                            <a href="assets/other/Resume-Mark-Raudenbush.pdf" download
-                                class="waves-effect waves-light btn blue-grey darken-3"><i
-                                    class="fa fa-file-pdf-o"><span id="resume"
-                                        class="card-title white-text">Resume</span></i></a>
-                            <a href="https://www.linkedin.com/in/markraudenbush/"
-                                class="waves-effect waves-light btn blue-grey darken-3"><i
-                                    class="fa fa-linkedin fa-2x"></i></a>
-                            <a href="https://github.com/markraud"
-                                class="waves-effect waves-light btn blue-grey darken-3"><i
-                                    class="fa fa-github fa-2x"></i></a>
-                            <!-- <a href="#" class="waves-effect waves-light btn">This is a link</a> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-
-        <!-- JavaScript, jquery and materialize js links -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-        <script type="text/javascript" src="assets/js/script.js"></script>
+    <!-- JavaScript, jquery and materialize js links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
 
 </body>
 

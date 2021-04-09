@@ -1,56 +1,44 @@
 .brand-logo {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 body {
-    background-size: 35%;
-    background-image: url("https://markraud.github.io/mr-portfolio/assets/images/dark-honeycomb.png");
-    
- }
+  background-size: 35%;
+  background-image: url("https://markraud.github.io/mr-portfolio/assets/images/dark-honeycomb.png");
+}
 
- #card-title{
-    padding-left: 10px;
- }
-
- .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-    color: white;
-    text-align: center;
-  }
+#card-title {
+  padding-left: 10px;
+}
 
 .app-img {
-    height: 300px;
-    
+  height: 300px;
 }
 
 i.fa {
-    padding-right: 5px;
-    padding-left: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 #resume {
-    font-size: 12px;
-    font-family: sans-serif;
-    padding-left: 5px;
-    padding-right: 5px;
+  font-size: 12px;
+  font-family: sans-serif;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .basic-contact {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 .sidenav-phone {
-    padding-left: 35px;
+  padding-left: 35px;
 }
 
 #contact {
-    height: auto;
+  height: auto;
 }
 
 #contact-nav {
-    display: inline-flex;
-    flex-wrap: wrap;
+  display: inline-flex;
+  flex-wrap: wrap;
 }
